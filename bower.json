@@ -1,0 +1,19 @@
+{
+  "name": "Stratox",
+  "authors": [
+    "Matthieu Bovel <matthieu@bovel.net>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "stratoxmusic.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
