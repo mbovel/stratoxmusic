@@ -67,7 +67,7 @@ header {
 }
 
 main {
-	color: #8dafc9;
+	color: #66bdff;
 
 	display: inline-block;
 
@@ -158,7 +158,7 @@ a:hover {
 .icon,
 button:focus .icon,
 button:active .icon {
-	fill: #8dafc9;
+	fill: #66bdff;
 }
 
 a:hover .icon,
@@ -284,7 +284,7 @@ button:hover .icon {
 }
 
 #loaded {
-	background-color: #8dafc9;
+	background-color: #66bdff;
 }
 
 @media screen and (max-width: 80em) {
