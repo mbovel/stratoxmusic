@@ -33,27 +33,27 @@ prevEl.addEventListener("click", function(e) {
 	else {
 		play(-1);
 	}
-	event.preventDefault();
+	e.preventDefault();
 });
 
 playEl.addEventListener("click", function(e) {
 	play(0);
-	event.preventDefault();
+	e.preventDefault();
 });
 
 pauseEl.addEventListener("click", function(e) {
 	pause();
-	event.preventDefault();
+	e.preventDefault();
 });
 
-nextEl.addEventListener("click", function() {
+nextEl.addEventListener("click", function(e) {
 	play(+1);
-	event.preventDefault();
+	e.preventDefault();
 });
 
-document.addEventListener("mouseup", function() {
+document.addEventListener("mouseup", function(e) {
 	dragging = false;
-	event.preventDefault();
+	e.preventDefault();
 });
 
 timeRailEl.addEventListener("mousedown", function(e) {
@@ -62,14 +62,14 @@ timeRailEl.addEventListener("mousedown", function(e) {
 	if(playing)
 		handleSeek(e);
 	
-	event.preventDefault();
+	e.preventDefault();
 });
 
 document.addEventListener("mousemove", function(e) {
 	if(dragging && playing)
 		handleSeek(e);
 	
-	event.preventDefault();
+	e.preventDefault();
 });
 
 window.addEventListener('load', function(e) {
