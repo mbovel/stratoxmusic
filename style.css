@@ -67,7 +67,7 @@ header {
 }
 
 main {
-	color: #66bdff;
+	color: #ffa74e;
 
 	margin: auto 0;
 
@@ -133,7 +133,7 @@ a {
 }
 
 a:hover {
-	color: #ff4b00;
+	color: #00c93f;
 }
 
 #links,
@@ -282,11 +282,11 @@ button:hover .icon {
 #time {
 	pointer-events: none;
 
-	background-color: #ff4b00;
+	background-color: #00c93f;
 }
 
 #loaded {
-	background-color: #66bdff;
+	background-color: #ffa74e;
 }
 
 @media screen and (max-width: 80em) {
