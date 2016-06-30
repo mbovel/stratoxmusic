@@ -15,7 +15,7 @@ body {
 
 	letter-spacing: 0.1em;
 
-	background-color: #000515;
+	background-color: #141400;
 	background-image: url('bg_large.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -40,7 +40,7 @@ footer {
 	text-align: center;
 
 	border-top: 5px solid #000;
-	background-color: rgba(24, 24, 28, 0.8);
+	background-color: rgba(28, 28, 24, 0.8);
 	-moz-box-shadow: 0 -1em 10em #000;
 	     box-shadow: 0 -1em 10em #000;
 }
@@ -158,12 +158,12 @@ a:hover {
 .icon,
 button:focus .icon,
 button:active .icon {
-	fill: #66bdff;
+	fill: #ffa74e;
 }
 
 a:hover .icon,
 button:hover .icon {
-	fill: #ff4b00;
+	fill: #00c93f;
 }
 
 .icon-soundcloud {
@@ -270,12 +270,13 @@ button:hover .icon {
 }
 
 #time-rail {
+	position: relative;
+
 	width: 100%;
 
 	cursor: pointer;
 
 	background-color: #fff;
-	position: relative;
 }
 
 #time {
@@ -321,7 +322,7 @@ button:hover .icon {
 	#page {
 		position: relative;
 
-		margin-top: 56%;
+		margin-top: 100%;
 
 		-moz-box-shadow: 0 -1em 5em #000;
 		     box-shadow: 0 -1em 5em #000;
